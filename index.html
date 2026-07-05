@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Componente visual reutilizable - Toast.js</title>
+    <link rel="stylesheet" href="css/componente.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="pagina">
+        <h1>Toast.js</h1>
+        <p>Componente de notificaciones flotantes hecho en JavaScript puro. Cada botón llama a la misma función <code>mostrarToast()</code>, con distinto mensaje, tipo y duración.</p>
+
+        <button class="btn-info" onclick="mostrarToast('¡Tienes cambios sin guardar!', { tipo: 'info' })">
+            Mostrar aviso informativo
+        </button>
+
+        <button class="btn-exito" onclick="mostrarToast('¡Registro guardado correctamente!', { tipo: 'exito' })">
+            Mostrar mensaje de éxito
+        </button>
+
+        <button class="btn-error" onclick="mostrarToast('No se pudo conectar al servidor', { tipo: 'error', duracion: 5000 })">
+            Mostrar mensaje de error
+        </button>
+
+        <button class="btn-info" onclick="dispararVariosToasts()">
+            Mostrar varios toasts seguidos
+        </button>
+    </div>
+
+    <script src="js/componente.js"></script>
+</body>
+</html>
