@@ -114,4 +114,4 @@ Puedes ver el componente funcionando en vivo en el siguiente enlace:
 
 Ver Repositorio: https://github.com/Sonnx18/Toast.js.git
 
-Ver Página en Vivo - GitHub Pages: 
+Ver Página en Vivo - GitHub Pages: https://sonnx18.github.io/Toast.js/
