@@ -77,29 +77,41 @@ Los toasts se apilan automáticamente uno debajo del otro, sin importar cuántos
 
 ## Capturas de Pantalla
 
-Ventana Normal
-(img/VentanaNormal.png)
+## Capturas de Pantalla
 
-Toast informativo
-(img/ToastInfo.png)
+**Ventana normal**
+Vista inicial de la página, sin ningún toast activo todavía.
 
-Toast de éxito
-(img/ToastExito.png)
+![Ventana Normal](img/VentanaNormal.png)
 
-Toast de error
-(img/ToastError.png)
+**Toast informativo**
+Notificación azul que aparece al hacer clic en el botón de aviso informativo.
 
-Varios toasts apilados
-(img/VariosToasts.png)
+![Toast informativo](img/ToastInfo.png)
+
+**Toast de éxito**
+Notificación verde confirmando que una acción se completó correctamente.
+
+![Toast de éxito](img/ToastExito.png)
+
+**Toast de error**
+Notificación roja con mayor duración en pantalla, avisando que algo falló.
+
+![Toast de error](img/ToastError.png)
+
+**Varios toasts apilados**
+Tres notificaciones distintas mostrándose al mismo tiempo, una debajo de la otra, sin pisarse entre ellas.
+
+![Varios toasts apilados](img/VariosToasts.png)
 
 ## Video Demostrativo
 
-Ver Video: _(pendiente)_
+Ver Video: https://youtu.be/SLB9rSER0qg
 
 ## Enlace a GitHub Pages
 
 Puedes ver el componente funcionando en vivo en el siguiente enlace:
 
-Ver Repositorio: _(pendiente)_
+Ver Repositorio: https://github.com/Sonnx18/Toast.js.git
 
-Ver Página en Vivo - GitHub Pages: _(pendiente)_
+Ver Página en Vivo - GitHub Pages: 
