@@ -56,6 +56,10 @@ button:hover {
     background-color: #fb2415;
 }
 
+.btn-adv {
+    background-color: #ffcc00;
+}
+
 /* COMPONENTE: Toast (notificación flotante) */
 
 /* Contenedor fijo en la esquina de la pantalla, donde se apilan los toasts */
@@ -103,3 +107,4 @@ button:hover {
 .toast-error {
     background-color: #fb2415;
 }
+
